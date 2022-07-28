@@ -31,7 +31,8 @@ return require('packer').startup(function()
     use 'p00f/clangd_extensions.nvim'   -- clangd extensions for C LSP
     use 'fatih/vim-go'                  -- Specific stuff for Go
     use 'dart-lang/dart-vim-plugin'     -- Dart support
-    -- Aesthetic/Appearance
+    -- Aesohetic/Appearance
+    use {'dracula/vim', as = 'dracula'}
     use 'sainnhe/gruvbox-material'      -- A refresh on a classic
     use 'sainnhe/sonokai'               -- Monokai Pro, but free
     use 'sainnhe/everforest'            -- I like the color green
@@ -39,4 +40,12 @@ return require('packer').startup(function()
     use 'nvim-lualine/lualine.nvim'     -- Statusbar go brrrr
     use "lukas-reineke/indent-blankline.nvim" -- Indent guides
     use {'stevearc/dressing.nvim'}      -- Make things generally prettier
+    --  bibi
+    use {'easymotion/vim-easymotion'}
+    use 'tpope/vim-surround'
+    use 'tpope/vim-commentary'
+    use 'tpope/vim-repeat'
+    use 'tpope/vim-unimpaired'
+    use 'tpope/vim-ragtag'
+    use 'mrjones2014/smart-splits'
 end)
